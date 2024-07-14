@@ -36,6 +36,8 @@ main --
 - to limit the content sent to remote repo
 - attach gitignore
 
+- to check what branches are pointing to what check log section
+
 ADD ###########################################################
 
 git add .
@@ -107,6 +109,11 @@ INIT ####################################################################
 
 go to the root folder of the project
 git init
+
+LOG ####################################################################
+
+list child branches
+git branch --contains
 
 MERGE ###################################################################
 
