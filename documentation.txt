@@ -1,0 +1,15 @@
+BRANCH
+
+new local branch
+git branch <branchname>
+
+new remote branch
+git branch <name of branch>
+git add .
+git commit -m "new branch"
+git push origin <new branch name>
+
+CLONE
+
+clone online repository with admin access
+git clone https://<token>@github.com/<git remote user>/<git remote repo>
