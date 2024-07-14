@@ -19,9 +19,8 @@ new local branch
 git branch <branchname>
 
 new remote branch
-git branch <name of branch>
-git add .
-git commit -m "new branch"
+git branch <new branch name>
+git checkout <new branch name>
 git push origin <new branch name>
 
 remove of local branch
