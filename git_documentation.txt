@@ -16,8 +16,11 @@ main --
         -- test
                     -- unit
 
-- new branch always has to depend to its parent branch
+- new branch always points to main
 - it is not possible to create a totally independent branch
+- to make the 'ticket' point to 'develop'
+- checkout to ticket
+- pull 'develop' to 'ticket'
 
 - lets say 'develop' has new commit. to have this change in 'ticket'
 - have to checkout to 'ticket' and pull 'develop'
