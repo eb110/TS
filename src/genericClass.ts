@@ -1,4 +1,4 @@
-const CreateSimpleMemoryDatabase = <T>() => {
+export const CreateSimpleMemoryDatabase = <T>() => {
     return class SimpleMemoryDatabase {
         private db: Record<string, T> = {};
 
