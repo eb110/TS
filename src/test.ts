@@ -16,7 +16,7 @@ console.log(logger.dumpLog());
 const StringDatabase = CreateSimpleMemoryDatabase<string>();
 
 const sdb1 = new StringDatabase();
-//value is automatically set to 'string' as this was declared in line 14
+//value is automatically set to 'string' as this was declared in line 16
 sdb1.set('a', 'zenek');
 
 //Dumpable takes as input the 'base' that have to have the 'getObject' function
