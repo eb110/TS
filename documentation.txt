@@ -1,3 +1,34 @@
+GOLDEN RULES
+
+- it is always good to install git bash 
+- and then use it as a main terminal source
+
+- if we want to create a new git (not depend on clone one)
+- git init
+
+- git repository has got a structure of a branch
+- at the top is the 'root branch' usually called 'main'
+- from the root branch emerges child branches
+
+                    -- ticket
+        -- develop
+main --
+        -- test
+                    -- unit
+
+- new branch always has to depend to its parent branch
+- it is not possible to create a totally independent branch
+
+- lets say 'develop' has new commit. to have this change in 'ticket'
+- have to checkout to 'ticket' and pull 'develop'
+
+- lets say 'ticket' has new commit. to have this change in 'develop'
+- have to checkout to 'develop' and merge 'ticket'
+
+- to have 'remote' repo we have to have git oline account
+- to have the access to the repo we have to clone it
+- to have the admin access - clone it with attached token
+
 ADD ###########################################################
 
 git add .
@@ -39,6 +70,11 @@ COMMIT ##################################################################
 git add .
 git commit -m "description"
 git push
+
+INIT ####################################################################
+
+go to the root folder of the project
+git init
 
 MERGE ###################################################################
 
