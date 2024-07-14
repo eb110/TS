@@ -1,0 +1,31 @@
+RULES
+
+npm install --save-dev ts-node tsconfig-paths
+
+got to Run and Debug and click 'create a lanuch.json file'
+select Node.js
+update newly created launch.json
+
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Debug Typescript",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}\\src\\test.ts",
+            "runtimeArgs": ["-r", "ts-node/register", "-r", "tsconfig-paths/register"],
+            "console": "integratedTerminal",
+            "outFiles": [
+                "${workspaceFolder}/**/*.js"
+            ]
+        }
+    ]
+}
+
+line 19 is the crucial one - it points to the starting file of our app
+
+Application is ready to place break points.
