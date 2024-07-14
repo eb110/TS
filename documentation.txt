@@ -46,6 +46,15 @@ MERGE ###################################################################
 go to parrent branch
 git merge <name of branch>
 
+PULL ####################################################################
+
+pull remote branch
+git pull origin <name of branch>
+
+pull remote parrent branch 
+go to child branch
+git pull origin <parrent branch name>
+
 PUSH #####################################################################
 
 git add .
