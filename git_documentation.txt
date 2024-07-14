@@ -60,6 +60,10 @@ new local branch based on current branch
 git checkout <branch to point to>
 git checkout -b <new branch>
 
+new local branch based on another branch creadted from main branch level
+git checkout main
+git checkout -b <new branch name> <name of the branch to point to>
+
 new remote branch
 git branch <new branch name>
 git checkout <new branch name>
