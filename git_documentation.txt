@@ -21,9 +21,11 @@ main --
 
 - lets say 'develop' has new commit. to have this change in 'ticket'
 - have to checkout to 'ticket' and pull 'develop'
+- then push it to remote
 
 - lets say 'ticket' has new commit. to have this change in 'develop'
 - have to checkout to 'develop' and merge 'ticket'
+- then push it to remote
 
 - to have 'remote' repo we have to have git oline account
 - to have the access to the repo we have to clone it
@@ -103,6 +105,7 @@ git pull origin <name of branch>
 pull remote parrent branch 
 git checkout <child branch>
 git pull origin <parrent branch name>
+git push origin <child branch>
 
 PUSH #####################################################################
 
