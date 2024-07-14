@@ -29,6 +29,9 @@ main --
 - to have the access to the repo we have to clone it
 - to have the admin access - clone it with attached token
 
+- to limit the content sent to remote repo
+- attach gitignore
+
 ADD ###########################################################
 
 git add .
@@ -70,6 +73,16 @@ COMMIT ##################################################################
 git add .
 git commit -m "description"
 git push
+
+GITIGNORE
+
+file that consist a list of contens which will be skipped during the git push to repo
+ideally it should be placed in root branch to 'cover' the entire project
+add new file '.gitignore'
+example:
+node_modules/
+
+in this configuration - node_modules catalogue is not going to be pushed to remote
 
 INIT ####################################################################
 
