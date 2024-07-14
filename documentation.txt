@@ -42,8 +42,9 @@ git push
 
 MERGE ###################################################################
 
-go to parrent branch
+git checkout <parrent branch>
 git merge <name of branch>
+git push <name of parrent branch>
 
 PULL ####################################################################
 
