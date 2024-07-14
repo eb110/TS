@@ -21,7 +21,7 @@ main --
 - to make the 'ticket' point to 'develop'
 - checkout to develop and create a new branch with -u flag
 
-- lets say 'develop' has new commit. to have this change in 'ticket'
+- lets say 'develop' has new commit. to have this change in 'ticket' 
 - have to checkout to 'ticket' and pull 'develop'
 - then push it to remote
 
