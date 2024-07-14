@@ -71,6 +71,13 @@ git branch -D <name of the branch>
 remove of remote branch
 git push -d origin <name of the branch>
 
+rename local
+git branch -m <old branch name> <new branch name>
+
+rename remote
+git push -d <old branch name>
+git push <new branch name>
+
 CLONE ###################################################################
 
 clone online repository with admin access
