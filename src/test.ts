@@ -1,9 +1,9 @@
-const testConsole = ():void => {
-    let test1 = 1;
-    console.log('this is test')
-}
+import { CreateSimpleMemoryDatabase } from "./genericClass";
 
+const StringDatabase = CreateSimpleMemoryDatabase<string>();
 
+const sdb1 = new StringDatabase();
+//value is automatically set to 'string' as this was declared in line 3
+sdb1.set('a', 'zenek');
 
-
-testConsole();
+console.log(sdb1.get('a'))
