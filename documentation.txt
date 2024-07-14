@@ -52,7 +52,7 @@ pull remote branch
 git pull origin <name of branch>
 
 pull remote parrent branch 
-go to child branch
+git checkout <child branch>
 git pull origin <parrent branch name>
 
 PUSH #####################################################################
