@@ -1,9 +1,11 @@
-const testConsole = ():void => {
-    let test1 = 1;
-    console.log('this is test')
-}
+import { createLoggerClass } from "./logger";
 
 
 
+const MyLogger = createLoggerClass();
 
-testConsole();
+const logger = new MyLogger();
+
+logger.log(' joasia');
+
+console.log(logger.dumpLog());
