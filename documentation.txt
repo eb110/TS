@@ -1,4 +1,19 @@
-BRANCH
+ADD ###########################################################
+
+git add .
+git commit -m "description"
+git push
+
+BRANCH ########################################################
+
+change branch
+git checkout <name of branch>
+
+list of local branches
+git branch
+
+list of remote branches
+git branch -r
 
 new local branch
 git branch <branchname>
@@ -9,7 +24,38 @@ git add .
 git commit -m "new branch"
 git push origin <new branch name>
 
-CLONE
+remove of local branch
+git branch -D <name of the branch>
+
+remove of remote branch
+git push -d origin <name of the branch>
+
+CLONE ###################################################################
 
 clone online repository with admin access
 git clone https://<token>@github.com/<git remote user>/<git remote repo>
+
+COMMIT ##################################################################
+
+git add .
+git commit -m "description"
+git push
+
+MERGE ###################################################################
+
+go to parrent branch
+git merge <name of branch>
+
+PUSH #####################################################################
+
+git add .
+git commit -m "description"
+
+local push
+git push
+
+remote push
+git push origin <name of branch>
+
+STATUS #####################################################################
+git status
