@@ -49,6 +49,11 @@ BRANCH ########################################################
 change branch
 git checkout <name of branch>
 
+get remote branch
+git branch -a
+git checkout origin/<name of online branch>
+git checkout <name of online branch>
+
 list of local branches
 git branch
 
